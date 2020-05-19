@@ -78,10 +78,6 @@ const theme = {
             ...rawTheme.typography.h4,
             fontSize: 32,
             fontWeight: rawTheme.typography.fontWeightLight,
-            [rawTheme.breakpoints.down('sm')]: {
-                fontSize: 26,
-                lineHeight: 2,
-            }
         },
         h5: {
             ...rawTheme.typography.h5,
@@ -96,24 +92,15 @@ const theme = {
         subtitle1: {
             ...rawTheme.typography.subtitle1,
             fontSize: 18,
-            [rawTheme.breakpoints.down('sm')]: {
-                fontSize: 24,
-            }
         },
         body1: {
             ...rawTheme.typography.body2,
             fontWeight: rawTheme.typography.fontWeightRegular,
             fontSize: 16,
-            [rawTheme.breakpoints.down('sm')]: {
-                fontSize: 20,
-            }
         },
         body2: {
             ...rawTheme.typography.body1,
             fontSize: 14,
-            [rawTheme.breakpoints.down('sm')]: {
-                fontSize: 16,
-            }
         },
     },
 };
